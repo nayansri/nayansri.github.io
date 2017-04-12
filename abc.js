@@ -2,7 +2,7 @@ function test() {
  console.log("Running...");
  alert("TEST");
 }
-superT.push = function(data) {
+function push(data) {
     try {
         var testVar = JSON.stringify(data);
      console.log("pers");
